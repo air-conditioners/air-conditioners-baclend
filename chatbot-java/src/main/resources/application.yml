@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  address: 172.16.4.92
+
+spring:
+  jpa:
+    show-sql: true
+    generate-ddl: false
+    hibernate:
+      ddl-auto: update
+  datasource:
+    username: root
+    password: Ajiseok!3676
+    url: jdbc:mysql://localhost:3306/openai
